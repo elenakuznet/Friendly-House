@@ -1,0 +1,20 @@
+.about {
+    padding: 100px 0;
+}
+
+.about__container {
+    max-width: 485px;
+    margin: 0 auto 0 130px;
+}
+
+.about__title {
+    line-height: 60px;
+    margin-bottom: 45px;
+    font-family: "Comfortaa";
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.about__text {
+    margin-bottom: 30px;
+}

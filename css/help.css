@@ -1,0 +1,22 @@
+.help {
+    padding: 100px 0;
+}
+
+.help__container {
+    max-width: 1000px;
+    margin: 0 auto 0 155px;
+}
+
+.help__title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+    color: #ff8a00;
+    line-height: 60px;
+    margin-bottom: 127px;
+}
+
+.help__list {
+    list-style-type: none; 
+    counter-reset: my-counter;
+}

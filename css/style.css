@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #282626;
+    background-color: #f2f0f1;
+    line-height: 30px;
+}
+
+h2 {
+    font-family: "Comfortaa";
+    font-size: 50px;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: "Helvetica Neue";
+    font-size: 30px;
+    font-weight: 400;
+}
+
+/* p:not(:last-child) {
+    margin-bottom: 30px;
+} */
+
+.first {
+    position: relative;
+    max-width: 450px;
+    padding-left: 74px;
+    margin-bottom: 123px;
+}
+
+.second {
+    position: relative;
+    max-width: 643px;
+    padding-left: 74px;
+    margin-bottom: 134px;
+}
+
+.third {
+    position: relative;
+    max-width: 540px;
+    padding-left: 74px;
+}
+
+
+
+

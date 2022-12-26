@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="fonts/HelveticaNeueCyr-Light.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/HelveticaNeueCyr-Light.woff" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="fonts/HelveticaNeueCyr-Roman.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/HelveticaNeueCyr-Roman.woff" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="fonts/HelveticaNeueCyr-Medium.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/HelveticaNeueCyr-Medium.woff" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="fonts/Comfortaa-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/Comfortaa-Regular.woff" as="font" type="font/woff" crossorigin>
+    <link rel="stylesheet" href="css/index.css">
+    <title>Friendly House</title>
+</head>
+<body>
+    <section class="about">
+        <div class="about__container">
+            <h1 class="about__title">О приюте</h1>
+            <p class="about__text">Приют "Friendly House" - это целый комплекс 
+                для бездомных и брошенных животных.</p> 
+            <p>В приюте работает сплочённая команда, которая занимается помощью бездомным животным 
+                в течении многих лет. Мы заботимся о качестве жизни наших подопечных и осуществляем профессиональный медицинский уход.</p>   
+        </div>
+    </section>
+    <section class="help">
+        <div class="help__container">
+            <h2 class="help__title">Как ты можешь нам помочь?</h2>
+            <ol class="help__list">
+                <li class="item first">
+                    <h3 class="item__title">Финансово</h3>
+                    <p class="item__text">Мы будем рады любым пожертвованиям. 
+                        Деньги пойдут на корм, лечение и уход, 
+                        а также, на обустройство территории, где обитают наши маленькие питомцы.</p>
+                </li>
+                <li class="item second">
+                    <h3 class="item__title item__title_second">Стать волонером</h3>
+                    <p class="item__text">Наш приют "Friendly House" привлекает волонтеров для оказания помощи в самых разных форматах! От финансовой помощи и набирающего популярность интеллектуального волонтерства до помощи руками.</p> 
+                    <p>Нам всегда нужна помощь с выгулом подопечных, уборкой помещений, привезти в приют корм или медикаменты, помочь с перевозкой животных в клиники, забрать и привезти вещи 
+                        и много всего другого. Мы всегда рады любой помощи, присоединяйтесь к нашей дружной команде! :)</p>
+                </li>
+                <li class="item third">
+                    <h3 class="item__title">Стать опекуном</h3>
+                    <p class="item__text item__text_bold">Хотите друга, но не можете взять домой? 
+                        Проект опеки - идеальное решение!</p>
+                    <p class="item__text">
+                        Взять под опеку животное, у которого еще нет опекуна, – это как завести питомца, о котором всю жизнь мечтал, но не мог себе этого позволить по каким-либо причинам.
+                    </p>
+                </li>
+            </ol>
+        </div>
+    </section> 
+    <section class="contact">
+        <div class="contact__container contact__wrapper">
+            <h2 class="contact__title">Ты можешь помочь нам!</h2>
+            <p class="contact__text">Хочешь забрать питомца, стать волонтером, или опекуном?<span class="contact__text contact__text_color_orange">Свяжись с нами!</span></p>
+            <address class="contact__address">
+                <div class="contact__mobile">
+                    <a href="tel:88493003957" class="contact__subtitle">8 (849) 300 - 39 -57</a>
+                </div>
+                <div class="contact__email">
+                    <a href="mailto:FriendlyHouse@gmail.com" class="contact__subtitle">FriendlyHouse@gmail.com</a>
+                </div>
+            </address>
+            <div class="contact__form">
+                <p class="contact__text">Или оставь свои контакты и мы сами свяжемся с тобой!</p>
+                <form class="form" action="https://jsonplaceholder.typicode.com/posts"
+                method="post">
+                <div class="form__wrapper">
+                    <label class="form__label"><span class="label-mobile">Номер телефона</span> 
+                        <input class="form__input mobile" type="tel" name="tel" required>
+                    </label>
+                    <label class="form__label"><span class="label-email">E-mail</span>
+                        <input class="form__input" type="email" name="email" required>
+                    </label>
+                </div>
+                    <button class="form__button" type="submit">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
