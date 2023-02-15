@@ -1,7 +1,10 @@
 @import "style.css";
+@import "global.css";
 @import "normalize.css";
 @import "fonts.css";
 @import "help.css";
 @import "about.css";
 @import "item.css";
 @import "contact.css";
+@import "project.css";
+@import "pets.css";
