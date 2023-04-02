@@ -1,5 +1,5 @@
 .help {
-    padding: 100px 0;
+    /* padding: 100px 0; */
 }
 
 .help__container {
@@ -19,4 +19,56 @@
 .help__list {
     list-style-type: none; 
     counter-reset: my-counter;
+}
+
+.help__wrapper {
+    display: flex;
+}
+
+.help__content {
+    max-width: 450px;
+}
+
+.first {
+    position: relative;
+    /* max-width: 450px; */
+    padding-left: 74px;
+    margin-bottom: 50px;
+}
+
+.help__gallery {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: 
+    'rabbit rabbit dog_2 dog_2 dog_2 dog_2'
+    ' dog_1 dog_1 dog_2 dog_2 dog_2 dog_2';
+    gap: 20px;
+}
+
+.help__image {
+}
+
+.help__image--01 {
+    grid-area: rabbit;
+}
+
+.help__image--02 {
+    grid-area: dog_2;
+}
+
+.help__image--03 {
+    grid-area: dog_1;
+}
+
+.second {
+    position: relative;
+    max-width: 643px;
+    padding-left: 74px;
+    margin-bottom: 134px;
+}
+
+.third {
+    position: relative;
+    max-width: 540px;
+    padding-left: 74px;
 }

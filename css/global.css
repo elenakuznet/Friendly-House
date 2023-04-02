@@ -16,7 +16,8 @@ body {
     font-size: 20px;
     font-weight: 300;
     color: #282626;
-    background-color: #f2f0f1;
+    background-color: #FFFFFF;
+    /* background-color: #f2f0f1; */
     line-height: 30px;
     /* min-width: 320px;
     min-height: 100vh;
@@ -76,6 +77,11 @@ iframe {
     max-width: 1240px;
     padding: 0 30px;
     margin: 0 auto;
+    display: flow-root;
+}
+
+.section {
+    padding: 45px 0;
 }
 
 @media (max-width: 768px) {
