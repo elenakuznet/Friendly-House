@@ -1,6 +1,6 @@
 @import "normalize.css";
 @import "global.css";
-@import "style.css";
+/* @import "style.css"; */
 @import "fonts.css";
 @import "header.css";
 @import "banner.css";
@@ -10,3 +10,4 @@
 @import "contact.css";
 @import "project.css";
 @import "pets.css";
+@import "menu.css";
